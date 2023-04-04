@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Request the Model</title>
+
+    <!--Add CSS-->
+    <style>
+        h3{
+            text-align: center;
+            color: white;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 14px;
+        }
+
+        #modelRequest{
+            border: 2px solid green;
+            border-radius: 4px;
+            width:30%;
+            margin-left: 450px;   
+            margin-top: 100px;
+        }
+
+        #modelRequest form{
+            margin-left: 100px;
+            margin-top:  50px;
+            margin-bottom: 50px;
+        }
+
+        #modelRequest form #input2{
+            margin-left: 112px;
+        }
+
+   
+    </style>
+
+
+</head>
+<body>
+
+    <h3>REQUEST THE MODEL</h3>
+
+    <div id = "modelRequest">
+        <form action = "/process_request"  method = "post">
+            <input type = "text" placeholder="ENTER MODEL KEY" name = 'model'><br><br>
+            <input type = "submit" id = "input2">
+        </form>
+    </div>
+    
+</body>
+</html>
